@@ -8,114 +8,78 @@
 }
 
 :root {
-    
-    /* ===========================
-   Warm Earth Color Palette
-   Style: Cozy, Natural, Friendly
-   Ideal for: family psychology, wellness, emotional balance
-   =========================== */
-
-   /* Core brand colors */
+  /* 🎨 Core brand colors – main identity palette */
   --primary-color: #45241A; /* Deep earthy brown – trustworthy and calm */
   --secondary-color: #6B3525; /* Warm brown – adds friendly contrast */
   --accent-color: #C97B5A; /* Terracotta – inviting and emotional warmth */
 
-  /* Status colors */
+  /* ✅ Status colors – for UI feedback and alerts */
   --success-color: #A3B18A; /* Natural green – balance and harmony */
   --warning-color: #DDA15E; /* Golden sand – soft attention cue */
-  --error-color: #BC4749; /* Warm red – emotionally expressive but not harsh */
+  --error-color: #BC4749; /* Warm red – expressive but gentle */
 
-  /* Text colors */
-  --text-color: #3C2F28; /* Main text – readable and soft contrast */
+  /* ✍️ Typography – text color hierarchy */
+  --text-color: #3C2F28; /* Main text – readable and calm contrast */
   --text-light: #8D7A6B; /* Secondary text – gentle brown-gray */
-  --text-muted: #B6A99F; /* Muted text – for quiet emphasis */
+  --text-muted: #B6A99F; /* Muted text – subtle emphasis */
 
-  /* Backgrounds */
-  --background: #FCF8F5; /* Warm beige – cozy base for content */
-  --background-light: #FFFDFB; /* Clean white-beige for contrast */
-  --background-dark: #2F1D15; /* Deep brown for footer or dark sections */
+  /* 🧱 Backgrounds – structure and visual depth */
+  --background: #FCF8F5; /* Warm beige – cozy base */
+  --background-light: #FFFDFB; /* Clean white-beige – gentle contrast */
+  --background-dark: #2F1D15; /* Deep brown – footer or dark areas */
 
-  /* Borders and dividers */
+  /* 🪶 Borders & dividers – subtle separation */
   --border-color: #E9D8C6; /* Light cream border */
-  --border-light: #F6EDE4; /* Very subtle line separation */
+  --border-light: #F6EDE4; /* Soft divider lines */
 
-  /* Shadows */
-  --shadow: 0 4px 6px rgba(69, 36, 26, 0.1); /* Gentle natural shadow */
-  --shadow-lg: 0 10px 15px rgba(107, 53, 37, 0.15); /* Medium soft depth */
-  --shadow-xl: 0 20px 25px rgba(107, 53, 37, 0.2); /* Deeper grounded feel */
-  --shadow-glow: 0 0 20px rgba(201, 123, 90, 0.25); /* Warm light glow */
+  /* 🌫️ Shadows – create natural depth */
+  --shadow: 0 4px 6px rgba(69, 36, 26, 0.1);
+  --shadow-lg: 0 10px 15px rgba(107, 53, 37, 0.15);
+  --shadow-xl: 0 20px 25px rgba(107, 53, 37, 0.2);
+  --shadow-glow: 0 0 20px rgba(201, 123, 90, 0.25);
 
-  /* Gradients */
+  /* 🌈 Gradients – dynamic visual highlights */
   --gradient-primary: linear-gradient(135deg, #45241A 0%, #6B3525 100%); /* Smooth earthy transition */
   --gradient-accent: linear-gradient(135deg, #C97B5A 0%, #DDA15E 100%); /* Terracotta to golden glow */
   --gradient-success: linear-gradient(135deg, #A3B18A 0%, #8D9C73 100%); /* Nature-inspired success */
-  --gradient-hero: linear-gradient(135deg, #6B3525 0%, #C97B5A 100%); /* Hero banner – soft and welcoming */
+  --gradient-hero: linear-gradient(135deg, #6B3525 0%, #C97B5A 100%); /* Soft and welcoming hero section */
   --gradient-card: linear-gradient(135deg, #FFFFFF 0%, #FCF8F5 100%); /* Light, calming background */
-    
-
-    /* Bold color palette */
-    
-    /*
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
-    --accent-color: #f59e0b;
-    --success-color: #10b981;
-    --warning-color: #f59e0b;
-    --error-color: #ef4444;
-    --text-color: #1f2937;
-    --text-light: #6b7280;
-    --text-muted: #9ca3af;
-    --background: #ffffff;
-    --background-light: #f8fafc;
-    --background-dark: #0f172a;
-    --border-color: #e5e7eb;
-    --border-light: #f3f4f6;
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.3); */
-
-        /* Gradients */
-    /*--gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    --gradient-accent: linear-gradient(135deg, var(--accent-color) 0%, #f97316 100%);
-    --gradient-success: linear-gradient(135deg, var(--success-color) 0%, #059669 100%);
-    --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-card: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);*/
-    
-    /* Typography */
-    --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-secondary: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-size-xs: 0.75rem;
-    --font-size-sm: 0.875rem;
-    --font-size-base: 1rem;
-    --font-size-lg: 1.125rem;
-    --font-size-xl: 1.25rem;
-    --font-size-2xl: 1.5rem;
-    --font-size-3xl: 1.875rem;
-    --font-size-4xl: 2.25rem;
-    --font-size-5xl: 3rem;
-    --font-size-6xl: 3.75rem;
-    
-    /* Spacing */
-    --spacing-xs: 0.5rem;
-    --spacing-sm: 1rem;
-    --spacing-md: 1.5rem;
-    --spacing-lg: 2rem;
-    --spacing-xl: 3rem;
-    --spacing-2xl: 4rem;
-    --spacing-3xl: 6rem;
-    --spacing-4xl: 8rem;
-    
-    /* Border radius */
-    --radius-sm: 6px;
-    --radius-md: 8px;
-    --radius-lg: 12px;
-    --radius-xl: 16px;
-    --radius-2xl: 24px;
-    --radius-full: 9999px;
+  
+  /* 📝 Typography – font families and sizes */
+  --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-secondary: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-6xl: 3.75rem;
+  
+  /* 📏 Spacing – consistent rhythm and spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
+  --spacing-4xl: 8rem;
+  
+  /* 🔄 Border radius – smooth, organic shapes */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
     
 }
 
+/* 📄 Base styles – foundation and typography */
 body {
     font-family: var(--font-primary);
     font-size: var(--font-size-base);
@@ -127,16 +91,16 @@ body {
     overflow-x: hidden;
 }
 
-/* Container */
+/* 📦 Layout – container and structure */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--spacing-sm);
 }
 
-/* Header */
+/* 🏠 Header – navigation and branding */
 .header {
-    background: rgba(255, 255, 255, 0.95);
+    background: var(--background-light);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border-light);
     position: sticky;
@@ -146,7 +110,7 @@ body {
 }
 
 .header.scrolled {
-    background: rgba(255, 255, 255, 0.98);
+    background: var(--background);
     box-shadow: var(--shadow-lg);
 }
 
@@ -157,6 +121,7 @@ body {
     padding: var(--spacing-sm) var(--spacing-sm);
 }
 
+/* 🎨 Logo – branding and identity */
 .logo {
     display: flex;
     align-items: center;
@@ -186,7 +151,7 @@ body {
     font-weight: 500;
 }
 
-/* Navigation */
+/* 🧭 Navigation – menu and links */
 .nav-list {
     display: flex;
     list-style: none;
@@ -207,12 +172,12 @@ body {
 
 .nav-link:hover {
     color: var(--primary-color);
-    background-color: rgba(99, 102, 241, 0.1);
+    background-color: var(--background-light);
 }
 
 .nav-link.cta-link {
     background: var(--gradient-primary);
-    color: white;
+    color: var(--background-light);
     padding: var(--spacing-xs) var(--spacing-md);
     border-radius: var(--radius-full);
     font-weight: 600;
@@ -221,10 +186,10 @@ body {
 .nav-link.cta-link:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-glow);
-    background: linear-gradient(135deg, #5b21b6 0%, #7c3aed 100%);
+    background: var(--gradient-accent);
 }
 
-/* Mobile menu toggle */
+/* 📱 Mobile menu toggle – responsive navigation */
 .mobile-menu-toggle {
     display: none;
     flex-direction: column;
@@ -243,12 +208,13 @@ body {
     transition: all 0.3s ease;
 }
 
-/* Hero section */
+/* 🌟 Hero section – main banner and introduction */
 .hero {
     position: relative;
     padding: var(--spacing-4xl) 0;
     overflow: hidden;
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    background: var(--gradient-hero), rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
 }
 
 .hero-background {
@@ -317,7 +283,7 @@ body {
 .hero-badge {
     display: inline-block;
     background: var(--gradient-primary);
-    color: white;
+    color: var(--background-light);
     padding: var(--spacing-xs) var(--spacing-md);
     border-radius: var(--radius-full);
     font-size: var(--font-size-sm);
@@ -365,7 +331,7 @@ body {
     font-family: var(--font-secondary);
     font-size: var(--font-size-3xl);
     font-weight: 800;
-    color: var(--primary-color);
+    color: var(--accent-color);
     line-height: 1;
 }
 
@@ -424,7 +390,7 @@ body {
     font-size: var(--font-size-sm);
 }
 
-/* Buttons */
+/* 🔘 Buttons – interactive elements */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -443,7 +409,7 @@ body {
 
 .btn-primary {
     background: var(--gradient-primary);
-    color: white;
+    color: var(--background-light);
     box-shadow: var(--shadow);
 }
 
@@ -761,7 +727,7 @@ section {
     content: '▶';
     position: absolute;
     left: 0;
-    color: var(--primary-color);
+    color: var(--accent-color);
     font-size: var(--font-size-xs);
 }
 
@@ -800,7 +766,7 @@ section {
 }
 
 .service-card.featured .service-header {
-    background: linear-gradient(135deg, var(--primary-color) 0%, #5b21b6 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
 }
 
 .service-icon {
@@ -872,7 +838,7 @@ section {
     font-family: var(--font-secondary);
     font-size: var(--font-size-lg);
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .service-duration {
@@ -914,7 +880,7 @@ section {
     font-family: var(--font-secondary);
     font-size: var(--font-size-4xl);
     font-weight: 800;
-    color: var(--primary-color);
+    color: var(--accent-color);
     line-height: 1;
     min-width: 80px;
 }
@@ -1087,7 +1053,7 @@ section {
 }
 
 .contact-details a {
-    color: var(--primary-color);
+    color: var(--accent-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -1158,8 +1124,8 @@ section {
 .form-group textarea:focus,
 .form-group select:focus {
     outline: none;
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(201, 123, 90, 0.1);
 }
 
 .form-group textarea {
@@ -1167,10 +1133,10 @@ section {
     min-height: 120px;
 }
 
-/* Footer */
+/* 🦶 Footer – site information and links */
 .footer {
     background: var(--background-dark);
-    color: white;
+    color: var(--background-light);
     padding: var(--spacing-3xl) 0 var(--spacing-lg);
 }
 
@@ -1208,12 +1174,12 @@ section {
 }
 
 .footer-logo p {
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-muted);
     font-size: var(--font-size-sm);
 }
 
 .footer-description {
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-light);
     line-height: 1.6;
     font-size: var(--font-size-sm);
 }
@@ -1234,7 +1200,7 @@ section {
 .footer-section a,
 .footer-section p {
     display: block;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-muted);
     text-decoration: none;
     margin-bottom: var(--spacing-xs);
     transition: color 0.3s ease;
@@ -1242,7 +1208,7 @@ section {
 }
 
 .footer-section a:hover {
-    color: white;
+    color: var(--background-light);
 }
 
 .social-links {
@@ -1252,7 +1218,8 @@ section {
 }
 
 .social-link {
-    background: rgba(255, 255, 255, 0.1);
+    background: var(--background);
+    color: var(--text-color);
     padding: var(--spacing-xs) var(--spacing-sm);
     border-radius: var(--radius-md);
     font-size: var(--font-size-xs);
@@ -1261,17 +1228,17 @@ section {
 
 .social-link:hover {
     background: var(--gradient-primary);
-    color: white;
+    color: var(--background-light);
 }
 
 .footer-bottom {
     text-align: center;
     padding-top: var(--spacing-lg);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid var(--border-color);
 }
 
 .footer-bottom p {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--text-muted);
     font-size: var(--font-size-sm);
 }
 
@@ -1445,7 +1412,7 @@ section {
 input:focus,
 textarea:focus,
 select:focus {
-    outline: 3px solid var(--primary-color);
+    outline: 3px solid var(--accent-color);
     outline-offset: 2px;
 }
 
@@ -1463,12 +1430,12 @@ select:focus {
     body {
         font-size: 12pt;
         line-height: 1.4;
-        color: black;
-        background: white;
+        color: var(--text-color);
+        background: var(--background);
     }
     
     .section-title,
     .hero-title {
-        color: black;
+        color: var(--text-color);
     }
 }
