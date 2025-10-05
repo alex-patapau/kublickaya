@@ -129,11 +129,15 @@ body {
 }
 
 .logo-icon {
-    font-size: 2rem;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-icon img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
 }
 
 .logo-text h1 {
