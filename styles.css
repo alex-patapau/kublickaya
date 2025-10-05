@@ -8,7 +8,54 @@
 }
 
 :root {
+    
+    /* ===========================
+   Warm Earth Color Palette
+   Style: Cozy, Natural, Friendly
+   Ideal for: family psychology, wellness, emotional balance
+   =========================== */
+
+   /* Core brand colors */
+  --primary-color: #45241A; /* Deep earthy brown – trustworthy and calm */
+  --secondary-color: #6B3525; /* Warm brown – adds friendly contrast */
+  --accent-color: #C97B5A; /* Terracotta – inviting and emotional warmth */
+
+  /* Status colors */
+  --success-color: #A3B18A; /* Natural green – balance and harmony */
+  --warning-color: #DDA15E; /* Golden sand – soft attention cue */
+  --error-color: #BC4749; /* Warm red – emotionally expressive but not harsh */
+
+  /* Text colors */
+  --text-color: #3C2F28; /* Main text – readable and soft contrast */
+  --text-light: #8D7A6B; /* Secondary text – gentle brown-gray */
+  --text-muted: #B6A99F; /* Muted text – for quiet emphasis */
+
+  /* Backgrounds */
+  --background: #FCF8F5; /* Warm beige – cozy base for content */
+  --background-light: #FFFDFB; /* Clean white-beige for contrast */
+  --background-dark: #2F1D15; /* Deep brown for footer or dark sections */
+
+  /* Borders and dividers */
+  --border-color: #E9D8C6; /* Light cream border */
+  --border-light: #F6EDE4; /* Very subtle line separation */
+
+  /* Shadows */
+  --shadow: 0 4px 6px rgba(69, 36, 26, 0.1); /* Gentle natural shadow */
+  --shadow-lg: 0 10px 15px rgba(107, 53, 37, 0.15); /* Medium soft depth */
+  --shadow-xl: 0 20px 25px rgba(107, 53, 37, 0.2); /* Deeper grounded feel */
+  --shadow-glow: 0 0 20px rgba(201, 123, 90, 0.25); /* Warm light glow */
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #45241A 0%, #6B3525 100%); /* Smooth earthy transition */
+  --gradient-accent: linear-gradient(135deg, #C97B5A 0%, #DDA15E 100%); /* Terracotta to golden glow */
+  --gradient-success: linear-gradient(135deg, #A3B18A 0%, #8D9C73 100%); /* Nature-inspired success */
+  --gradient-hero: linear-gradient(135deg, #6B3525 0%, #C97B5A 100%); /* Hero banner – soft and welcoming */
+  --gradient-card: linear-gradient(135deg, #FFFFFF 0%, #FCF8F5 100%); /* Light, calming background */
+    
+
     /* Bold color palette */
+    
+    /*
     --primary-color: #6366f1;
     --secondary-color: #8b5cf6;
     --accent-color: #f59e0b;
@@ -26,7 +73,14 @@
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.3);
+    --shadow-glow: 0 0 20px rgba(99, 102, 241, 0.3); */
+
+        /* Gradients */
+    /*--gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--accent-color) 0%, #f97316 100%);
+    --gradient-success: linear-gradient(135deg, var(--success-color) 0%, #059669 100%);
+    --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-card: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);*/
     
     /* Typography */
     --font-primary: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -60,12 +114,6 @@
     --radius-2xl: 24px;
     --radius-full: 9999px;
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    --gradient-accent: linear-gradient(135deg, var(--accent-color) 0%, #f97316 100%);
-    --gradient-success: linear-gradient(135deg, var(--success-color) 0%, #059669 100%);
-    --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-card: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
 }
 
 body {
